@@ -91,6 +91,311 @@
 						"definition": {
 							"layout": {
 								"borderWidth": 0,
+								"contentDisplay": "FlexRow",
+								"justify": "Center",
+								"marginBottom": 0,
+								"marginLeft": 0,
+								"marginRight": 0,
+								"marginTop": 0,
+								"paddingBottom": 0,
+								"paddingLeft": 0,
+								"paddingRight": 0,
+								"paddingTop": 0,
+								"widthType": "Fixed"
+							}
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"gutters": true,
+									"modulesPerRow": 3,
+									"numberOfColumns": 3,
+									"reverseOrder": false,
+									"rowViewports": [
+										{
+											"id": "landscapeMobile",
+											"rowViewportDefinition": {
+											}
+										},
+										{
+											"id": "portraitMobile",
+											"rowViewportDefinition": {
+											}
+										},
+										{
+											"id": "tablet",
+											"rowViewportDefinition": {
+											}
+										}
+									],
+									"verticalAlignment": "top"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"columnViewports": [
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "landscapeMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "tablet"
+												}
+											],
+											"size": 4
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "company-policy-card"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "01-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/house_blue.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "01-text",
+															"value": {
+																"text": {
+																	"value_i18n": {
+																		"en_US": "General Liability Insurance"
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/info.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-link",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value": "#"
+																		}
+																	},
+																	"value_i18n": {
+																	}
+																}
+															}
+														}
+													]
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Column"
+									},
+									{
+										"definition": {
+											"columnViewports": [
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "landscapeMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "tablet"
+												}
+											],
+											"size": 4
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "company-policy-card"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "01-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/house_yellow.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "01-text",
+															"value": {
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Business Interruption Insurance"
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/info.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-link",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value": "#"
+																		}
+																	},
+																	"value_i18n": {
+																	}
+																}
+															}
+														}
+													]
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Column"
+									},
+									{
+										"definition": {
+											"columnViewports": [
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "landscapeMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"columnViewportDefinition": {
+													},
+													"id": "tablet"
+												}
+											],
+											"size": 4
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "company-policy-card"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "01-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/house_purple.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "01-text",
+															"value": {
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Property Insurance"
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-image",
+															"value": {
+																"fragmentImage": {
+																	"url": {
+																		"value_i18n": {
+																			"en_US": "[$DOCUMENT_URL:/site-initializer/documents/info.svg$]"
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"id": "02-link",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value": "#"
+																		}
+																	},
+																	"value_i18n": {
+																	}
+																}
+															}
+														}
+													]
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Column"
+									}
+								],
+								"type": "Row"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"layout": {
+								"borderWidth": 0,
 								"marginBottom": 10,
 								"marginLeft": 0,
 								"marginRight": 0,
